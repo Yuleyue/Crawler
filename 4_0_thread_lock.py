@@ -34,20 +34,18 @@ class SafeQueue:
         self.__item_lock = Condition()
 
     def put(self, item: Any):
-        self.__item_lock.acquire()
-        while len(self.__item_list) >= self.size:
-            self.__item_lock.wait()
+        with self.__item_lock:
+            while len(self.__item_list) >= self.size:
+                self.__item_lock.wait()
 
-        self.__item_list.insert(0, item)
-        self.__item_lock.notify_all()
-        self.__item_lock.release()
+            self.__item_list.insert(0, item)
+            self.__item_lock.notify_all()
 
     def get(self):
-        self.__item_lock.acquire()
-        while len(self.__item_list) == 0:
-            self.__item_lock.wait()
+        with self.__item_lock:
+            while len(self.__item_list) == 0:
+                self.__item_lock.wait()
 
-        result = self.__item_list.pop()
-        self.__item_lock.notify_all()
-        self.__item_lock.release()
+            result = self.__item_list.pop()
+            self.__item_lock.notify_all()
         return result
