@@ -5,43 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3609ce72-82a9-4f30-9f58-e817c18e55af" name="Changes" comment="An example to demonstrate crawler">
-      <change afterPath="$PROJECT_DIR$/03_re_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_douban_top250.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_get_dytt_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_04_requests_get_multi_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_01_bs4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_02_bs4_exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_xpath_parse_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_zbj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_2_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_4_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_5_training_netease_music.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl_mp4.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubanTop250.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zbj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_eastfortune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_extract_comments_on_music_netease.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_0_thread_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t6n.bc7V.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_requests_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_requests_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_5_training_netease_music.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_5_training_netease_music.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -99,6 +70,10 @@
     "Python.10_zbj.executor": "Run",
     "Python.3_2_cookie.executor": "Run",
     "Python.3_4_proxy.executor": "Run",
+    "Python.3_5_training_netease_music.executor": "Run",
+    "Python.3_6_eastfortune.executor": "Run",
+    "Python.3_6_extract_comments_on_music_netease.executor": "Run",
+    "Python.4_0_thread_lock.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -106,7 +81,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -127,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1770424702902</updated>
       <workItem from="1770424706408" duration="14590000" />
-      <workItem from="1770460986236" duration="35383000" />
+      <workItem from="1770460986236" duration="60045000" />
     </task>
     <task id="LOCAL-00001" summary="An example to demonstrate crawler">
       <option name="closed" value="true" />
@@ -145,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770440007265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="An example to demonstrate crawler">
+      <option name="closed" value="true" />
+      <created>1770590620961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770590620961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,15 +140,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="An example to demonstrate crawler" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Crawler$3_6_eastfortune.coverage" NAME="3_6_eastfortune Coverage Results" MODIFIED="1770598653029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$07_requests_example.coverage" NAME="07_requests_example Coverage Results" MODIFIED="1770431864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$04_douban_top250.coverage" NAME="04_douban_top250 Coverage Results" MODIFIED="1770472242518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$3_5_training_netease_music.coverage" NAME="3_5_training_netease_music Coverage Results" MODIFIED="1770611415201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$08_02_bs4_exercise.coverage" NAME="08_02_bs4_exercise Coverage Results" MODIFIED="1770521507485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$08_xpath_parse_01.coverage" NAME="08_xpath_parse_01 Coverage Results" MODIFIED="1770526069694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$03_first_crawler.coverage" NAME="03_first_crawler Coverage Results" MODIFIED="1770427403326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$04_get_dytt_info.coverage" NAME="04_get_dytt_info Coverage Results" MODIFIED="1770506653218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$3_6_extract_comments_on_music_netease.coverage" NAME="3_6_extract_comments_on_music_netease Coverage Results" MODIFIED="1770628901676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$10_zbj.coverage" NAME="10_zbj Coverage Results" MODIFIED="1770543671729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$07_requests_post.coverage" NAME="07_requests_post Coverage Results" MODIFIED="1770462513464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$07_04_requests_get_multi_params.coverage" NAME="07_04_requests_get_multi_params Coverage Results" MODIFIED="1770461051825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$4_0_thread_lock.coverage" NAME="4_0_thread_lock Coverage Results" MODIFIED="1770644627295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$3_2_cookie.coverage" NAME="3_2_cookie Coverage Results" MODIFIED="1770557439401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$03_re_module.coverage" NAME="03_re_module Coverage Results" MODIFIED="1770466585469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$08_01_bs4.coverage" NAME="08_01_bs4 Coverage Results" MODIFIED="1770516855605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
