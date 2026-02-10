@@ -15,20 +15,17 @@ async def call_api(name: str, delay: int):
     print(f'Call {name} - step 2')
 
 async def main():
+    args_list = [('A',2), ('B',3), ('C',5), ('D',4)]
     time_1 = time.perf_counter()
-    print('start A coroutine')
-    task_1 = asyncio.create_task(call_api('A', 2))
+    task = [asyncio.create_task(call_api(name=name, delay=delay)) for name, delay in args_list]
+    print('Coroutines start')
 
-    print('start B coroutine')
-    task_2 = asyncio.create_task(call_api('B', 2))
-
-    await task_1
-    print('end A coroutine')
-    await task_2
-    print('end B coroutine')
-
+    # await asyncio.wait(task)
+    await asyncio.gather(*task)
 
     time_2 = time.perf_counter()
     print(f'Spent {time_2 - time_1} seconds')
+    print('Coroutines done')
 
-asyncio.run(main())
+if __name__ == '__main__':
+    asyncio.run(main())
