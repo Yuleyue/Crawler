@@ -2,6 +2,8 @@ import asyncio
 import os.path
 import re
 
+import Cryptodome.Cipher._mode_cbc
+from Cryptodome.Cipher import AES
 import aiofiles
 import aiohttp
 import requests
@@ -41,12 +43,41 @@ def get_title(json_data: dict) -> str:
     title = json_data['data']['title']
     return title
 
+# 获取m3u8文件链接地址
 def get_m3u8_url(json_data: dict) -> str:
     m3u8_url = json_data['data']['info']['playUrl']
     return m3u8_url
 
-def get_ts_url_lst(m3u8_url: str, headers: dict) -> list:
+# 获取m3u8文件
+def get_m3u8(m3u8_url: str, headers: dict) -> str:
     m3u8 = requests.get(m3u8_url, headers=headers).text
+    return m3u8
+
+# 获取m3u8文件中密钥的链接地址
+'''
+#EXT-X-KEY:METHOD=AES-128,URI="https://hls.csdn.net/mp/hls-service/video/api/hw/getKey?asset_id=ed9e92517b1a25cd1c1d228e0ca37d0a&token=jiFNO59vuCWudq7R-E2gAL__wV4dhWuWrloj4d13BKJLlur0Ltou_T_XQztnKFWuJ-20qWP0e_Jr3SBkHA3AiA",IV=0x28bbc6c1537c9414152f459a34bc7b5b
+'''
+def get_m3u8_key_url(m3u8: str) -> str:
+    key_url = re.findall(r'URI="(.*?)",', m3u8)[0]
+    return key_url
+
+# 获取m3u8文件中密钥
+def get_m3u8_key(m3u8_key_url: str, headers: dict) -> bytes:
+    response = requests.get(m3u8_key_url, headers=headers).content
+    return response
+
+# 获取m3u8文件中偏移量
+def get_m3u8_iv(m3u8:str) -> bytes:
+    IV = re.findall(r'IV=(.*)', m3u8)[0]
+    return bytes.fromhex(IV[2:])
+
+def get_ts_file_lst(m3u8_url: str, headers: dict) -> list:
+    m3u8 = get_m3u8(m3u8_url, headers=headers)
+    ts_lst = re.findall(r',\n(.*?)\n#', m3u8)
+    return ts_lst
+
+def get_ts_url_lst(m3u8_url: str, headers: dict) -> list:
+    m3u8 = get_m3u8(m3u8_url, headers=headers)
     ts_lst = re.findall(r',\n(.*?)\n#', m3u8)
     pre_url = m3u8_url.split('play_video')[0]
     ts_url_lst = list()
@@ -56,24 +87,36 @@ def get_ts_url_lst(m3u8_url: str, headers: dict) -> list:
 
     return ts_url_lst
 
+
 # 下载ts文件
-async def download_ts(session, url):
-    async with session.get(url) as response:
-        ts_name = 'ts_files/' + url.split('/')[-1]
+async def download_ts(session, ts_url, ic):
+    async with session.get(ts_url) as response:
+        ts_name = 'ts_files/' + ts_url.split('/')[-1]
         async with aiofiles.open(ts_name, mode='wb') as f:
-            await f.write(await response.read())
+            await f.write(ic.decrypt(await response.read()))
             print(f'{ts_name} downloaded')
 
 async def main():
     js_data = get_first_level(url, headers=headers)
     m3u8_url = get_m3u8_url(js_data)
+    m3u8 = get_m3u8(m3u8_url, headers)
     ts_url_lst = get_ts_url_lst(m3u8_url, headers)
+    # cipher the ts_content
+    key = get_m3u8_key(get_m3u8_key_url(m3u8), headers)
+    iv = get_m3u8_iv(m3u8)
+    ic = AES.new(key=key, mode=AES.MODE_CBC, IV=iv)
 
     async with aiohttp.ClientSession() as session:
-        for ts_url in ts_url_lst:
-            await download_ts(session, ts_url)
-            break
+        tasks = [asyncio.create_task(download_ts(session, url, ic)) for url in ts_url_lst]
+        await asyncio.gather(*tasks)
+
+def merge_ts_to_one(cat_lst):
+    cat_str = '+'.join(cat_lst)
+    os.chdir('ts_files')
+    os.system(f'copy /b {cat_str} lesson.mp4')
 
 
 if __name__ == '__main__':
     asyncio.run(main())
+    merge_ts_to_one(get_ts_file_lst(get_m3u8_url(get_first_level(url, headers=headers)), headers))
+
