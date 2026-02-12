@@ -5,32 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3609ce72-82a9-4f30-9f58-e817c18e55af" name="Changes" comment="An example to demonstrate crawler">
-      <change afterPath="$PROJECT_DIR$/1pwqva1mwrg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_7_aiohttp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gut4qzo0vy3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrxhsz2btbj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_8_snap_nover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_9_2_1_92zj_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_9_csdn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/92zj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts_name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Crawler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_0_async_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_0_async_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_9.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -97,6 +80,9 @@
     "Python.4_0_threa_pool.executor": "Run",
     "Python.4_0_thread_lock.executor": "Run",
     "Python.4_7_aiohttp.executor": "Run",
+    "Python.4_8_snap_nover.executor": "Run",
+    "Python.4_9_2_1_92zj_simple.executor": "Run",
+    "Python.4_9_csdn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -126,7 +112,7 @@
       <updated>1770424702902</updated>
       <workItem from="1770424706408" duration="14590000" />
       <workItem from="1770460986236" duration="63779000" />
-      <workItem from="1770676970194" duration="8449000" />
+      <workItem from="1770676970194" duration="41773000" />
     </task>
     <task id="LOCAL-00001" summary="An example to demonstrate crawler">
       <option name="closed" value="true" />
@@ -168,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770678093596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="An example to demonstrate crawler">
+      <option name="closed" value="true" />
+      <created>1770693371123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770693371123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,26 +174,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="An example to demonstrate crawler" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Crawler$3_6_eastfortune.coverage" NAME="3_6_eastfortune Coverage Results" MODIFIED="1770598653029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$07_requests_example.coverage" NAME="07_requests_example Coverage Results" MODIFIED="1770431864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$04_douban_top250.coverage" NAME="04_douban_top250 Coverage Results" MODIFIED="1770472242518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$3_5_training_netease_music.coverage" NAME="3_5_training_netease_music Coverage Results" MODIFIED="1770611415201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$4_0_threa_pool.coverage" NAME="4_0_threa_pool Coverage Results" MODIFIED="1770646885874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$08_02_bs4_exercise.coverage" NAME="08_02_bs4_exercise Coverage Results" MODIFIED="1770521507485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$3_6_extract_comments_on_music_netease.coverage" NAME="3_6_extract_comments_on_music_netease Coverage Results" MODIFIED="1770628901676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$4_0_async.coverage" NAME="4_0_async Coverage Results" MODIFIED="1770677342230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$4_9_csdn.coverage" NAME="4_9_csdn Coverage Results" MODIFIED="1770896307951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$4_0_thread_lock.coverage" NAME="4_0_thread_lock Coverage Results" MODIFIED="1770644627295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$07_04_requests_get_multi_params.coverage" NAME="07_04_requests_get_multi_params Coverage Results" MODIFIED="1770461051825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$03_re_module.coverage" NAME="03_re_module Coverage Results" MODIFIED="1770466585469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$08_01_bs4.coverage" NAME="08_01_bs4 Coverage Results" MODIFIED="1770516855605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$3_6_eastfortune.coverage" NAME="3_6_eastfortune Coverage Results" MODIFIED="1770598653029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$04_douban_top250.coverage" NAME="04_douban_top250 Coverage Results" MODIFIED="1770472242518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$3_5_training_netease_music.coverage" NAME="3_5_training_netease_music Coverage Results" MODIFIED="1770611415201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$08_xpath_parse_01.coverage" NAME="08_xpath_parse_01 Coverage Results" MODIFIED="1770526069694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$4_7_aiohttp.coverage" NAME="4_7_aiohttp Coverage Results" MODIFIED="1770693332652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$4_0_async_task.coverage" NAME="4_0_async_task Coverage Results" MODIFIED="1770689187725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$03_first_crawler.coverage" NAME="03_first_crawler Coverage Results" MODIFIED="1770427403326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$04_get_dytt_info.coverage" NAME="04_get_dytt_info Coverage Results" MODIFIED="1770506653218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$3_6_extract_comments_on_music_netease.coverage" NAME="3_6_extract_comments_on_music_netease Coverage Results" MODIFIED="1770628901676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$10_zbj.coverage" NAME="10_zbj Coverage Results" MODIFIED="1770543671729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$07_requests_post.coverage" NAME="07_requests_post Coverage Results" MODIFIED="1770462513464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$4_0_async.coverage" NAME="4_0_async Coverage Results" MODIFIED="1770677342230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$07_04_requests_get_multi_params.coverage" NAME="07_04_requests_get_multi_params Coverage Results" MODIFIED="1770461051825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$4_0_thread_lock.coverage" NAME="4_0_thread_lock Coverage Results" MODIFIED="1770644627295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$4_8_snap_nover.coverage" NAME="4_8_snap_nover Coverage Results" MODIFIED="1770775222960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$3_2_cookie.coverage" NAME="3_2_cookie Coverage Results" MODIFIED="1770557439401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$03_re_module.coverage" NAME="03_re_module Coverage Results" MODIFIED="1770466585469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crawler$08_01_bs4.coverage" NAME="08_01_bs4 Coverage Results" MODIFIED="1770516855605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crawler$4_9_2_1_92zj_simple.coverage" NAME="4_9_2_1_92zj_simple Coverage Results" MODIFIED="1770849821847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$3_4_proxy.coverage" NAME="3_4_proxy Coverage Results" MODIFIED="1770560033094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
